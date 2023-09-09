@@ -36,3 +36,362 @@ body{
     padding: 0;
     margin: 0;
 }
+
+
+.main{
+    background-color: #000;
+    background-image: url('/img/BG\ COLOURS.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.home{
+    padding-top: 105.27px;
+    display: flex;
+    flex-direction: column;
+    gap: 96.5px;
+    max-width: 85%;
+    margin: auto;
+}
+/*
+.ellipse{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #010E58;
+    filter: blur(193px);
+    margin-top: -200px;
+    margin-left: -200px;
+}
+*/
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+}
+.menu{
+    display: flex;
+    gap: 26px;
+}
+.menu-item{
+    color: #FFF;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 120% */
+    text-decoration: none;
+}
+.menu-item:focus,
+.menu-item:hover:after{
+    color: #D50138;
+    transition:.6s;
+}
+.menu-item:after {
+    background-color: #D50138; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px; /* Высота линии */
+    width: 0%;
+    transition:.6s;
+}
+.menu-item:hover:after,
+.menu-item:focus:after {
+    width: 100%;
+}
+
+.hero{
+    display: flex;
+    gap: 77px;
+    align-items: center;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45.5px; /* 91% */
+    letter-spacing: -1px;
+}
+.title span{
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47.5px;
+}
+.text{
+    margin-top: 10px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 137.5% */
+}
+.btn{
+    margin-top: 28.15px;
+    display: flex;
+    gap: 51px;
+}
+.btn-1{
+    width: 175px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D50138;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.5px; /* 137.5% */
+}
+.btn-2{
+    width: 175px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #313a4600;
+    border: 1px solid #8A8A8A;
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.5px; /* 137.5% */
+}
+
+
+.services{
+    margin-top: 118.05px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+}
+.subject{
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Regular', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 137.5% */
+    text-transform: uppercase;
+}
+.barlist{
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.10);
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.list-item{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.list-text{
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+
+.pricing{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    max-width: 70%;
+    margin: 190px auto;
+}
+.desc__title{
+    width: 400px;
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.5px; /* 98.611% */
+    letter-spacing: -0.72px;
+}
+.desc__text{
+    margin-top: 13px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.5px; /* 102.941% */
+}
+.desk__btn-3{
+    margin-top: 24.38px;
+    width: 175px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0026FF;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.5px; /* 137.5% */
+}
+
+
+.experience{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    margin: 190px auto;
+    max-width: 70%;
+}
+.desk__btn-4{
+    width: 175px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #7502A3;
+    border: none;
+    cursor: pointer;
+    margin-top: 20.52px;
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.5px; /* 137.5% */
+}
+
+
+.testimonial{
+    margin: 177.39px auto 0;
+    max-width: 85%;
+    text-align: center;
+}
+.testimonial__title{
+    margin-top: 18.99px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 110% */
+}
+.testimonial__title span{
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 11.75px;
+}
+
+.cards{
+    margin-top: 156.65px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    width: 327px;
+    height: 299px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: rgba(0, 38, 255, 0.30);
+}
+.card-item img{
+    margin-top: -85px;
+}
+.name{
+    margin-top: 17.27px;
+    color: #FFF;
+    font-family: 'MTN Brighter Sans Regular', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; /* 137.5% */
+    text-transform: capitalize;
+}
+.about{
+    margin-top: 17.29px;
+    margin-left: 42px;
+    margin-right: 42px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'MTN Brighter Sans Regular', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+}
+.card-item:hover{
+    box-shadow: 0px -14px 31px 8px rgba(0, 38, 255, 0.30);
+    cursor: pointer;
+}
+
+
+.booking{
+    max-width: 85%;
+    margin: 126px auto 0;
+    background: linear-gradient(95deg, rgba(0, 117, 255, 0.47) 1.06%, rgba(231, 0, 111, 0.41) 101.51%);
+    padding: 63px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.box__title{
+    margin-top: 19px;
+    margin-bottom: 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 96% */
+    text-transform: capitalize;
+}
+.box__btn-4{
+    width: 175px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    cursor: pointer;
+    color: #311B52;
+    font-family: 'MTN Brighter Sans Medium', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.5px; /* 137.5% */
+}
+
+
+.line{
+    max-width: 85%;
+    height: 2px;
+    margin: 406.6px auto 137px;
+    background: rgba(152, 152, 152, 0.10);
+}
