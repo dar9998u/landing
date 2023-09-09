@@ -52,17 +52,6 @@ body{
     max-width: 85%;
     margin: auto;
 }
-/*
-.ellipse{
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background: #010E58;
-    filter: blur(193px);
-    margin-top: -200px;
-    margin-left: -200px;
-}
-*/
 .nav{
     width: 100%;
     display: flex;
