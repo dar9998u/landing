@@ -40,7 +40,7 @@ body{
 
 .main{
     background-color: #000;
-    background-image: url('../img/BG\ COLOURS.png');
+    background-image: url(../img/BG\ COLOURS.png);
     background-size: 100%;
     background-repeat: no-repeat;
 }
